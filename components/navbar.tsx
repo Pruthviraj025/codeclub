@@ -19,11 +19,12 @@ import { NavUser } from "./nav-user"
 
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
-  { href: "/explore", label: "Explore" },
-  { href: "/problems", label: "Problems" },
-  { href: "/blogs", label: "Blogs" },
-  { href: "/events", label: "Events" },
-{ href: "/editorial", label: "Editorials" },
+  { href: "/explore",       label: "Explore"       },
+  { href: "/problems",      label: "Problems"       },
+  { href: "/blogs",         label: "Blogs"          },
+  { href: "/events",        label: "Events"         },
+  { href: "/editorial",     label: "Editorials"     },
+  { href: "/session-notes", label: "Session Notes"  },
 ]
 
 export default function Component() {
